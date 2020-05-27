@@ -1,0 +1,8 @@
+
+
+162.241.253.234
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} moki929\.space [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://moki929.space/$1 [R,L]
